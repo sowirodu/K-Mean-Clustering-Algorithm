@@ -1,10 +1,4 @@
-# csci2322-p3
-Project 3
+In this project I will implement a higher-order k-means clustering algorithm. The algorithm takes as inputs a list of two-dimensional points, and partitions them into k clusters. Each cluster has a central point, called a center. A center does not have to be one of the input points. A successful clustering must obey two properties:
 
-On this project, you are not allowed to collaborate at the keyboard. Do not look at other student's
-code.  You may collaborate on a whiteboard or on paper.
-If you are having problems with syntax or semantics errors, I encourage you to come to my office hours.
-
-Student Name:
-Trinity ID: 
-Project Grade:
+Each center is the average (mean) of the points in it's cluster.
+Each point is in the cluster of the nearest center.
